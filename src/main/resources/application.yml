@@ -1,0 +1,10 @@
+spring:
+  freemarker:
+    template-loader-path: classpath:/templates
+    cache: false # \u5F00\u53D1\u73AF\u5883\u7F13\u5B58\u5173\u95ED
+    charset: UTF-8
+    suffix: .ftl
+  mvc:
+    static-path-pattern: /static/**
+server:
+  max-http-header-size: 102400
